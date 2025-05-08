@@ -1,0 +1,19 @@
+string = str(input("Please type in a string: "))
+a_vowel = "a"
+e_vowel = "e"
+o_vowel = "o"
+
+if a_vowel in string:
+    print("a found")
+else:
+    print("a not found")
+    
+if e_vowel in string:
+    print("e found")
+else:
+    print("e not found")
+
+if o_vowel in string:
+    print("o found")
+else:
+    print("o not found")
